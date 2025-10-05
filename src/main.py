@@ -24,7 +24,7 @@ class Dice:
         base_path = os.path.dirname(os.path.abspath(__file__))
         assets_path = os.path.join(base_path, "../assets")
 
-        icon_path = os.path.join(assets_path, "DIE.png")
+        icon_path = os.path.join(assets_path, "DIE.ico")
         icon = pygame.image.load(icon_path)
         pygame.display.set_icon(icon)
 
